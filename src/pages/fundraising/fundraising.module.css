@@ -1,0 +1,13 @@
+.fundraisingBody {
+    margin: 1rem 2rem;
+}
+
+.fundraisingPostContainer {
+    margin-top: 1rem;
+}
+
+@media (max-width:900px) {
+    .fundraisingBody {
+        margin: 1rem;
+    }
+}

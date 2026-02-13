@@ -1,0 +1,20 @@
+.header {
+    text-align: center;
+    padding: 0 .5rem;
+}
+
+.subheader {
+    text-align: center;
+    margin: 0 1rem;
+    color: gray;
+}
+
+.bracketContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bracketContainerMobile {
+    overflow-x: scroll;
+}

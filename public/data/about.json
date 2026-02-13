@@ -1,0 +1,148 @@
+{
+    "body" : "<style>.banners {display: flex;justify-content: center;align-items: center;flex-wrap: wrap;}.bannerContainer {margin-top: 2rem;display: flex;align-items: center;justify-content: center;flex-direction: column;}.bannerPhoto {height: 8rem;margin: 1rem 2rem;}@media (max-width:900px) {.bannerPhoto {height: 6rem;margin: 1rem;}.bannerContainer {margin-top: 0rem;}  }</style><div>The University of Michigan Men's Club Water Polo Team is a tight knit community of students. We are a member of the College Water Polo Association (CWPA) that includes both varsity and club teams. We play as part of the Big Ten Division (club only) in season, while in the off season we can play any team in the country in any division. Our season typically runs from September to mid-November. Our team is run by the players and we perform various duties such as budgeting, scheduling, recruiting, fundraising, and organizing transportation/hotels for road trips. Each year, we elect officers to carry out these various tasks. Our mission is to provide the opportunity for interested individuals of all skill levels to participate in the sport of water polo on the collegiate club level. During the regular season we practice from 9:30-11:30 PM Monday-Thursday at Canham Natatorium. If you are interested in learning more about the team and/or potentially joining, please contact us using the form on the <a href='contact'>contact</a> page! </p><p><b>National Champions</b><br />2003, 1998, 1996</p><p><b>Big Ten Champions</b><br />2024, 2022, 2018, 2017, 2016, 2015, 2012, 2011, 2004, 2003, 1998, 1997, 1996, 1992, 1991, 1989</p><p><b>Big Ten Runner-Up</b><br />2023, 2021, 2014, 2010, 2009, 2008, 2006, 2005, 2002, 2001, 2000</p><div class='banners'><a class='bannerContainer' href='https://recsports.umich.edu/clubs'><img class='bannerPhoto' src='icons/recSports.svg' alt='banner' />Club Sports</a><a class='bannerContainer' href='https://collegiatewaterpolo.org/'><img class='bannerPhoto' src='icons/cwpa.png' alt='banner' />CWPA</a><a class='bannerContainer' href='https://maizepages.umich.edu/organization/menswaterpolo'><img class='bannerPhoto' src='icons/studentLife.svg' alt='banner' />Maizepages</a><a class='bannerContainer' href='https://drive.google.com/drive/u/1/folders/0ByBWCpbn60RoUUFtRW1JemQyNlE'><img class='bannerPhoto' src='icons/gallery.png' alt='banner' />Photo Gallery</a></div>",
+    "coaches": [
+        {
+            "role": "Head Coach",
+            "people": [
+                {
+                    "name": "Adam Schnepf",
+                    "headshot":"headshotAdam.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Assistant Coaches",
+            "people": [
+                {
+                    "name": "Ivo Dinov",
+                    "headshot":"headshotIvo.jpg"
+                },
+                {
+                    "name": "Ethan Knox",
+                    "headshot": "nopicture.svg"
+                }
+            ]
+        }
+    ],
+    "eboard": [
+        {
+            "role": "President",
+            "people": [
+                {
+                    "name": "Priam Alataris",
+                    "headshot": "headshotPriam.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Vice President",
+            "people": [
+                {
+                    "name": "Gavin Bickner",
+                    "headshot": "headshotPotsos.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Treasurer",
+            "people": [
+                {
+                    "name": "Sean Ko",
+                    "headshot": "headshotKo.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Captains",
+            "people": [
+                {
+                  "name": "Priam Alataris",
+                  "headshot": "headshotPriam.jpg"
+                },
+                {
+                    "name": "Jack Staunton",
+                    "headshot": "headshotKo.jpg"
+                },
+                {
+                    "name": "Zach Rossen",
+                    "headshot": "nopicture.svg"
+                }
+            ]
+        },
+        {
+            "role": "Fundraising Chair",
+            "people": [
+                {
+                    "name": "Daniel Hernandez",
+                    "headshot": "headshotDaniel.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Travel Coordinator",
+            "people": [
+                {
+                    "name": "Priam Alataris",
+                    "headshot": "headshotPriam.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Webmaster",
+            "people": [
+                {
+                    "name": "Jack Staunton",
+                    "headshot": "headshotBergen.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Social Media Chair",
+            "people": [
+                {
+                    "name": "Adam Bergen",
+                    "headshot": "headshotBergen.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Alumni Relations Chair",
+            "people": [
+                {
+                    "name": "Gavin Bickner",
+                    "headshot": "headshotGavin.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Community Service Chair",
+            "people": [
+                {
+                    "name": "Andrew Hawley",
+                    "headshot": "headshotAndrew.jpg"
+                }
+            ]
+        },
+        {
+            "role": "Social Chairs",
+            "people": [
+                {
+                    "name": "Max Angel",
+                    "headshot": "headshotMax.jpg"
+                },
+                {
+                    "name": "Zach Rossen",
+                    "headshot": "nopicture.svg"
+                },
+                {
+                    "name": "Travis Fitch",
+                    "headshot": "headshotTravis.jpg"
+                },
+                {
+                    "name": "Daniel Bellatin",
+                    "headshot": "headshotDaniel.jpg"
+                }
+            ]
+        }
+    ]
+}

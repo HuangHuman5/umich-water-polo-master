@@ -1,0 +1,15 @@
+.rosterBody {
+  margin: 1rem 2rem;
+}
+
+.rosterYear {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+
+@media (max-width:900px) {
+  .rosterBody {
+    margin: 1rem;
+  }
+}

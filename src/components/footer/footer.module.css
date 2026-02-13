@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 1rem;
+  background-color: #00274C;
+  border-top: #F1C400 .35rem solid;
+  padding-bottom: .75rem;
+}
+
+.footerSocialContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footerSocialIcon {
+  width: 24px;
+  height: 24px;
+  align-content: center;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  cursor: pointer;
+  color: rgba(255,255,255, .7);
+}
+
+
+.footerLegal {
+  font-size: 1rem;
+  color: rgba(255,255,255,.7);
+  text-align: center;
+  margin: 12px;
+  margin-bottom: 0;
+}
+
+@media (max-width:450px) {
+  .footerLegal {
+    font-size: .6rem;
+  } 
+}

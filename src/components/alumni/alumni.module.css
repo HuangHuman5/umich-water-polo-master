@@ -1,0 +1,36 @@
+.slideContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    height: 70px;
+}
+
+.slideWrapper {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slide 55s linear infinite;
+    margin-top: -15px;
+}
+.slideWrapper.slow {
+    animation: slide 90s linear infinite;
+}
+
+.slideItem {
+    display: inline-block;
+}
+
+.slideImage {
+    width: 100px;
+    height: 100px;
+    color: rgba(0, 0, 0, .3);
+    transition: color 0.2s;
+
+}
+.slideImage:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+@keyframes slide{
+    from {transform:translate3d(0,0,0);}
+    to{transform:translate3d(-50%,0,0);}
+}

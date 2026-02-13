@@ -1,0 +1,279 @@
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.arrow:hover {
+    background-color: rgba(163, 163, 163, .3);
+}
+
+.arrow:active {
+    background-color: rgba(163, 163, 163, .45);
+}
+
+.slideshowContainer {
+    width: calc(100% - 130px);
+    height: 30vw;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pictureSlides {
+    width: 100%;
+    height: 30vw;
+}
+
+@media (orientation: portrait) {
+    .slideshowContainer, .pictureSlides {
+        height: 105vw;
+        max-height: 500px;
+    }
+}
+
+.dotsHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselDot {
+    height: .8rem;
+    width: .8rem;
+    cursor: pointer;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: 100%;
+    border: 2px solid #a3a3a3;
+}
+
+.carouselDot.active {
+    background-color: #00274C;
+    border: 2px solid #00274C;
+}
+
+.quote {
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: rgba(0, 0, 0, .85);
+}
+
+.championBanner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0rem 2rem;
+}
+
+.championBannerItem {
+    background-color: rgb(0, 0, 0, .01) !important;
+    padding: 1.2rem;
+    margin: .5rem 2rem;
+    width: 100px;
+    max-width: 200px;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    color: rgba(0, 0, 0, 0.7) !important
+}
+
+.championBannerItem span {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: .2rem;
+    color: rgba(0, 0, 0, 0.9) !important
+}
+
+.alumniSubtitle {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: .5rem;
+    margin-bottom: 1rem;
+}
+
+.homeUpdateContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.homeSubTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:rgba(0, 0, 0, .85);
+    margin-bottom: .75rem;
+    margin-top: 0;
+}
+
+.bannerContainer {
+    background-color: #FFCB05;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    color: #00274C;
+}
+
+.bannerX {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    fill: #00274C;
+    width: 3rem;
+    height: 3rem;
+}
+
+.bannerX:hover {
+    cursor: pointer;
+}
+
+.bannerLink {
+    text-decoration: none;
+    color: #00274C;
+}
+
+.bannerHeader {
+    font-size: 3.5rem;
+    margin: 0 3rem;
+}
+
+.bannerSubheader {
+    margin: 0;
+    font-size: 2.25rem;
+}
+
+.recSportsLogo {
+    width: 100px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+@media (max-width:1100px) {
+    .championBannerItem {
+        font-size: 1.2rem;
+    }
+    .championBannerItem span {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width:950px) {
+    .quote {
+        font-size: 3rem;
+    }
+    .homeSubTitle {
+        font-size: 2rem;
+    }
+    .arrow {
+        display: none;
+    }
+    .slideshowContainer {
+        width: calc(100% - 20px);
+        padding: 0px;
+    }
+    .championBanner {
+        margin: 0rem .5rem;
+    }
+    .championBannerItem {
+        font-size: 1rem;
+        padding: .8rem;
+        line-height: 1rem;
+        margin: 0 1rem;
+        margin-top: .5rem;
+    }
+    .championBannerItem span {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .carouselDot {
+        height: .5rem;
+        width: .5rem;
+        border: 1px solid #a3a3a3;
+    }
+    .carouselDot.active {
+        border: 1px solid #00274C;
+    }
+    .alumniSubtitle {
+        font-size: 1.1rem;
+    }
+    .homeUpdateContainer {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    .bannerX {
+        width: 2rem;
+        height: 2rem;
+    }
+    .bannerHeader {
+        font-size: 3rem;
+        margin: 0 2rem;
+    }
+    .bannerSubheader {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width:480px) {
+    .quote {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: 2.5rem;
+    }
+    .homeSubTitle {
+        font-size: 1.75rem;
+    }
+    .bannerHeader {
+        font-size: 2rem;
+    }
+    .bannerSubheader {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    .quote {
+        font-size: 2.15rem;
+    }
+    .homeSubTitle {
+        font-size: 1.5rem;
+    }
+    .bannerHeader {
+        font-size: 1.75rem;
+    }
+    .bannerSubheader {
+        font-size: 1.25rem;
+    }
+}

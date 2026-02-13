@@ -1,0 +1,13 @@
+.newsBody {
+    margin: 1rem 2rem;
+}
+
+.newsPostContainer {
+    margin: 1rem 0rem;
+}
+
+@media (max-width:900px) {
+    .newsBody {
+        margin: 1rem;
+    }
+}

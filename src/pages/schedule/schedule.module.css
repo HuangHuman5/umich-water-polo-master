@@ -1,0 +1,172 @@
+.scheduleBody {
+    padding: 0 5rem;
+}
+
+.seasonTitle {
+    font-weight: 900;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    color: rgba(0, 0, 0, .8);
+}
+
+.seasonBanner {
+    position: relative;
+}
+
+.seasonStatsContainer {
+    color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seasonStatsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 3rem;
+    margin-bottom: 0rem;
+    font-size: 1.75rem;
+}
+
+.scheduleYear {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.bannerHolder {
+    background-color: #F1C400;
+    padding: 0.25rem .5rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
+.tournamentName {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bannerRow {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.15rem;
+}
+
+.bannerDates {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: left;
+}
+
+.tournamentLocation {
+    cursor: pointer;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.hubIcon {
+    height: 1.7rem;
+    transform: translateY(4px);
+    margin-right: .5rem;
+}
+
+.awardBackground {
+    background-color: #E8E8E8;
+    color: black;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    padding-bottom: .2rem;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.awardBackground.odd {
+    background-color: lightgrey;
+}
+
+.peopleHolder {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.15rem;
+    text-align: right;
+}
+
+.TBDtext {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.bracketLink {
+    text-align: center;
+    padding: 0 0 0.8rem;
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: #F1C400;
+}
+
+@media (max-width:950px) {
+    .scheduleBody {
+        padding: 0 1rem;
+    }
+    .seasonTitle {
+        font-size: 3rem;
+    }
+    .scheduleYear {
+        position: relative;
+        justify-content: flex-end;
+        margin-top: .75rem;
+    }
+    .seasonStatsItem {
+        margin: 1rem 2rem;
+        margin-bottom: 0;
+    }
+    .bannerRow {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .tournamentName {
+        font-size: 1.5rem;
+    }
+    .tournamentLocation {
+        display: none;
+    }
+    .awardBackground {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0 .5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .peopleHolder {
+        font-size: 1rem;
+        font-weight: initial;
+    }
+}
+
+@media (max-width:480px) {
+    .seasonTitle {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    .seasonTitle {
+        font-size: 2.15rem;
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "id": 14,
+    "name": "2:30 PM",
+    "scheduled": 1666549800000,
+    "sides": {
+        "home": {
+            "team": {
+                "name": "1 Michigan State",
+                "id": "1"
+            },
+            "score": {
+                "score": 7
+            },
+            "seed": {
+                "rank": 1,
+                "sourcePool": {},
+                "sourceGame": {
+                    "id": 9,
+                    "name": "9:30 AM",
+                    "scheduled": 1666531800000,
+                    "sides": {
+                        "home": {
+                            "team": {
+                                "name": "1 Michigan State",
+                                "id": "1"
+                            },
+                            "score": {
+                                "score": 8
+                            },
+                            "seed": {
+                                "rank": 1,
+                                "sourcePool": {},
+                                "sourceGame": {
+                                    "id": 5,
+                                    "name": "5:30 PM",
+                                    "scheduled": 1666474200000,
+                                    "sides": {
+                                        "home": {
+                                            "team": {
+                                                "name": "1 Michigan State",
+                                                "id": "1"
+                                            },
+                                            "score": {
+                                                "score": 15
+                                            }
+                                        },
+                                        "visitor": {
+                                            "team": {
+                                                "name": "8 Indiana",
+                                                "id": "8"
+                                            },
+                                            "score": {
+                                                "score": 5
+                                            },
+                                            "seed": {
+                                                "rank": 1,
+                                                "sourcePool": {},
+                                                "sourceGame": {
+                                                    "id": 1,
+                                                    "name": "1:30 PM",
+                                                    "scheduled": 1666459800000,
+                                                    "sides": {
+                                                        "home": {
+                                                            "team": {
+                                                                "name": "8 Indiana",
+                                                                "id": "8"
+                                                            },
+                                                            "score": {
+                                                                "score": 15
+                                                            }
+                                                        },
+                                                        "visitor": {
+                                                            "team": {
+                                                                "name": "9 Northwestern",
+                                                                "id": "9"
+                                                            },
+                                                            "score": {
+                                                                "score": 7
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "visitor": {
+                            "team": {
+                                "name": "4 Purdue",
+                                "id": "4"
+                            },
+                            "score": {
+                                "score": 5
+                            },
+                            "seed": {
+                                "rank": 1,
+                                "sourcePool": {},
+                                "sourceGame": {
+                                    "id": 4,
+                                    "name": "4:30 PM",
+                                    "scheduled": 1666470600000,
+                                    "sides": {
+                                        "home": {
+                                            "team": {
+                                                "name": "4 Purdue",
+                                                "id": "4"
+                                            },
+                                            "score": {
+                                                "score": 9
+                                            }
+                                        },
+                                        "visitor": {
+                                            "team": {
+                                                "name": "5 Wisconsin",
+                                                "id": "5"
+                                            },
+                                            "score": {
+                                                "score": 8
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "visitor": {
+            "team": {
+                "name": "2 Michigan",
+                "id": "2"
+            },
+            "score": {
+                "score": 8
+            },
+            "seed": {
+                "rank": 1,
+                "sourcePool": {},
+                "sourceGame": {
+                    "id": 8,
+                    "name": "8:30 PM",
+                    "scheduled": 1666485000000,
+                    "sides": {
+                        "home": {
+                            "team": {
+                                "name": "2 Michigan",
+                                "id": "2"
+                            },
+                            "score": {
+                                "score": 8
+                            },
+                            "seed": {
+                                "rank": 1,
+                                "sourcePool": {},
+                                "sourceGame": {
+                                    "id": 2,
+                                    "name": "2:30 PM",
+                                    "scheduled": 1666463400000,
+                                    "sides": {
+                                        "home": {
+                                            "team": {
+                                                "name": "2 Michigan",
+                                                "id": "2"
+                                            },
+                                            "score": {
+                                                "score": 16
+                                            }
+                                        },
+                                        "visitor": {
+                                            "team": {
+                                                "name": "7 Illinois",
+                                                "id": "7"
+                                            },
+                                            "score": {
+                                                "score": 10
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "visitor": {
+                            "team": {
+                                "name": "3 Ohio State",
+                                "id": "3"
+                            },
+                            "score": {
+                                "score": 7
+                            },
+                            "seed": {
+                                "rank": 1,
+                                "sourcePool": {},
+                                "sourceGame": {
+                                    "id": 3,
+                                    "name": "3:30 PM",
+                                    "scheduled": 1666467000000,
+                                    "sides": {
+                                        "home": {
+                                            "team": {
+                                                "name": "3 Ohio State",
+                                                "id": "3"
+                                            },
+                                            "score": {
+                                                "score": 10
+                                            }
+                                        },
+                                        "visitor": {
+                                            "team": {
+                                                "name": "6 Iowa",
+                                                "id": "6"
+                                            },
+                                            "score": {
+                                                "score": 7
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

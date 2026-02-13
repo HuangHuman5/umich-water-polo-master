@@ -1,0 +1,20 @@
+{
+    "landscape": [
+        "team.jpg",
+        "edlund.jpg",
+        "brenden.jpg",
+        "ko.jpg",
+        "rossen.jpg",
+        "garrett.jpg",
+        "gora.jpg"
+    ],
+    "portrait": [
+        "edlundMobile.jpg",
+        "bergenMobile.jpg",
+        "brillMobile.jpg",
+        "janosiMobile.jpg",
+        "potsosMobile.jpg",
+        "rossenMobile.jpg",
+        "ballMobile.jpg"
+    ]
+}
