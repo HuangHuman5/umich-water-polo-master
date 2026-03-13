@@ -11,9 +11,7 @@ Once the repo is on your local machine, navigate to the folder. To open the proj
 
 Once that is finished, you can run the following command to serve the site on your local network on port 3000 with the `npm start` command. *Make sure your terminal is in the directory with `package.json`
 
-*If you get the error `react-scripts: not found`, run `npm install` and then  run `npm audit fix`
-
-Note : If using Ubuntu, use `sudo apt update` and `sudo apt install nodejs npm`. Then, verify your installation using `nodejs -v` and `npm -v`.
+**If using Ubuntu, use `sudo apt update` and `sudo apt install nodejs npm`. Then, verify your installation using `nodejs -v` and `npm -v`. If you get the error `react-scripts: not found`, run `npm install` and then run `npm audit fix`.
 
 And just like that, you have the project up and running on http://localhost:3000/~umpolo. 
 
@@ -25,6 +23,6 @@ To deploy the site, use the `npm run build` command to bundle the site. Then, up
 
 ** If you get permission denied when trying to overwrite you will need to be added as an owner to the umpolo group in mcommunity. Then follow the instructions on this website: https://teamdynamix.umich.edu/TDClient/30/Portal/KB/ArticleDet?ID=7243. Specifically, the "controlling permission and access" section where you do pts adduser
 
-** Contact previous Web Master to Change your access to Website, and visit https://ifsprovisioning.its.umich.edu and press Request to gain access to AFS home directory (Required for ITS login and SFTP servers). Otherwise, You cannot add changes to the actual website.
+** Contact previous Web Master to grant you access to Website, and visit https://ifsprovisioning.its.umich.edu and press Request to gain access to AFS home directory (Required for ITS login and SFTP servers). Otherwise, You cannot add changes to the actual website.
 
-Happy Coding!
+Happy Coding! 
