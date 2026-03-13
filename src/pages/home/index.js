@@ -114,7 +114,7 @@ export default function Home() {
 				</ErrorBoundary>
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 					<div className={styles.imageContainer}>
-						<img className={styles.recSportsLogo} src={`${process.env.PUBLIC_URL}/misc/recSportsLogo.png`} alt="Rec Sports Logo" />
+						<img className={styles.recSportsLogo2026} src={`${process.env.PUBLIC_URL}/misc/recSportsLogo2026.png`} alt="Rec Sports Logo" />
 					</div>
 				</ErrorBoundary>
 			</div>
