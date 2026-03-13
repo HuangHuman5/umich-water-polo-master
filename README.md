@@ -13,7 +13,7 @@ Once that is finished, you can run the following command to serve the site on yo
 
 *If you get the error `react-scripts: not found`, run `npm install` and then  run `npm audit fix`
 
-Note : If using Ubuntu, use `sudo apt update` and `sudo apt install nodejs npm`. Then, verify your installation using `nodejs -v` and `npm -v`. If 
+Note : If using Ubuntu, use `sudo apt update` and `sudo apt install nodejs npm`. Then, verify your installation using `nodejs -v` and `npm -v`.
 
 And just like that, you have the project up and running on http://localhost:3000/~umpolo. 
 
