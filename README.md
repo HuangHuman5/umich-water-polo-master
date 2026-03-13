@@ -2,6 +2,8 @@
 
 In this document, you will learn about the structure of the website, how it is hosted, how to open the website on a local machine, how to deploy it to Apache, and how modify the sites content!
 
+Website Link : https://websites.umich.edu/~umpolo/
+
 ## Getting Started
 The project is developed with the React framework. To run the application on a local host, you must first install Node and NPM. Once this is complete, clone this repo.
 
@@ -10,6 +12,8 @@ Once the repo is on your local machine, navigate to the folder. To open the proj
 Once that is finished, you can run the following command to serve the site on your local network on port 3000 with the `npm start` command.
 
 And just like that, you have the project up and running on http://localhost:3000/~umpolo. 
+
+Contact previous Web Master to Change your access to Website, and visit https://ifsprovisioning.its.umich.edu to gain access to AFS home directory (Required for ITS login and SFTP servers).
 
 ## Making a content change
 A simple change is anything that has to do with the content on the pages. To change the content, simply navigate to the public directory and data subdirectory. The data is served to the website through the JSON files in this folder. To make a change, simply add/alter/remove  data in the appropriate file. Simply read the first couple of entries to understand how the modifications must be formatted. To upload images for the files (should it be necessary for the section you are modifying), make sure you upload the image into the proper subdirectory within the public directory. Use SVGs for icons and always optimize images (example tools to optimize are imageoptim and svgo).
