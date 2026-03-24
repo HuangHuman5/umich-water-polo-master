@@ -29,7 +29,7 @@ export default function Header() {
                 <div className={styles.headerLine} />
                 <div className={styles.headerText} >
                     <div className={styles.headerTitle}>MEN'S WATER POLO</div>
-                    <div className={styles.headerSubtitle}>15 TIME BIG TEN CHAMPIONS</div>
+                    <div className={styles.headerSubtitle}>17 TIME BIG TEN CHAMPIONS</div>
                 </div>
             </div>
             <ErrorBoundary fallback={<div>Error</div>} onError={logger}>

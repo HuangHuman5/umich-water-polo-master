@@ -38,11 +38,6 @@
                 "hometown": "Chicago, IL",
                 "headshot": "teamChip2025.jpg"
             },
-            {   "name": "Luke Morden",
-                "bio": "FR, Nursing",
-                "hometown": "Farmington Hills, MI",
-                "headshot": "nopicture.svg"
-            },
             {
                 "name": "Enrique Tirado",
                 "bio": "FR, Mechanical Engineering",
@@ -50,12 +45,6 @@
                 "headshot": "teamEnrique2025.jpg"
             },
             {
-                "name": "Talan Vance",
-                "bio": "FR, Mechanical Engineering",
-                "hometown": "San Diego, CA",
-                "headshot": "nopicture.svg"
-            },
-             {
                 "name": "Connor Zillich",
                 "bio": "FR, Mechanical Engineering",
                 "hometown": "Ann Arbor, MI",
@@ -167,7 +156,7 @@
               "name": "Aurelien Laffont",
               "bio": "JR, Economics",
               "hometown": "Palatine, IL",
-              "headshot": "teamAurelien2025.jpg"
+              "headshot": "teamAurelien2024.jpg"
           },
           {
               "name": "Lucas Li",
@@ -193,7 +182,7 @@
               "name": "Jack Staunton",
               "bio": "JR, Biochemistry",
               "hometown": "Ann Arbor, MI",
-              "headshot": "teamStaunton2024.jpg"
+              "headshot": "teamStaunton2025.jpg"
           },
           {
                 "name": "James Yan",

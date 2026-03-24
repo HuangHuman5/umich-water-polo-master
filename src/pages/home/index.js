@@ -93,7 +93,7 @@ export default function Home() {
 				<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>First Team All&#x2011;Americans</Paper>
 					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={3} duration={1} />x</b></span>National Champions</Paper>
-					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={16} duration={1} />x</b></span>Big Ten Champions</Paper>
+					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={17} duration={1} />x</b></span>Big Ten Champions</Paper>
 					<Paper className={styles.championBannerItem} elevation={3}><span><b><CountUp to={100} duration={2} />+</b></span>Academic All&#x2011;Americans</Paper>
 				</ErrorBoundary>
 			</div>

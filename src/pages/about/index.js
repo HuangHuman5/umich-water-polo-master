@@ -13,7 +13,7 @@ import styles from './about.module.css';
 export default function About() {
 	return (
 		<div className={styles.aboutContainer}>
-			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/team2.jpg`} />
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/bigtenwin.jpg`} />
 			<AboutBody />
 		</div>
 	)

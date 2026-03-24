@@ -100,6 +100,34 @@
           "dates": "November 8th-10th",
           "directions": "https://www.google.com/maps/dir/Ann+Arbor,+Michigan/103+Midway+Dr,+Carlisle,+PA+17015/@40.1561223,-77.1937457,336m/data=!3m1!1e3!4m14!4m13!1m5!1m1!1s0x883cb00dd4431f33:0xdb09f94686c8b5e2!2m2!1d-83.7430378!2d42.2808256!1m5!1m1!1s0x89c8e207c5e09d2d:0x64d58b97194edc2e!2m2!1d-77.1924691!2d40.1557796!3e0?entry=tts&g_ep=EgoyMDI1MTAyMi4wKgBIAVAD&skid=97ceb47e-982b-487c-b146-3ca12688ce51",
           "games": [
+            {
+                "opponent": "Chico State",
+                "time": "2025-11-07T10:10",
+                "logo": "chico.svg",
+                "result": "loss",
+                "score": "9-10"
+            },
+            {
+                "opponent": "Penn State",
+                "time": "2025-11-07T20:40",
+                "logo": "psu.svg",
+                "result": "win",
+                "score": "11-7"
+            },
+            {
+                "opponent": "University of Washington",
+                "time": "2025-11-08T14:50",
+                "logo": "uofwashington.svg",
+                "result": "win",
+                "score": "17-6"
+            },
+            {
+                "opponent": "Dartmouth",
+                "time": "2025-11-09T14:15",
+                "logo": "dartmouth.svg",
+                "result": "loss",
+                "score": "6-12"
+            }
               
           ]
       }

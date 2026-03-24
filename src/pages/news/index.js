@@ -11,7 +11,7 @@ import styles from "./news.module.css"
 export default function News() {
 	return (
 		<div className={styles.newsBody}>
-			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/cam.jpg`} />
+			<ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/edlund.jpg`} />
 			<ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
 				<NewsInternals />
 			</ErrorBoundary>
