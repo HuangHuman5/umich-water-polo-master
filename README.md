@@ -33,10 +33,10 @@ Where to complete each task
 - To change misc logo (depends on which logo) :  `/public/misc` or `/public/icons`
 - To change any general issue for site-wide component : `/src/components/[Component Name]`
 
-(code/functionality -> index.js; design -> [Component Name].module.css)
+   (code/functionality -> index.js; design -> [Component Name].module.css)
 - To change any general issue for a certain page : `/src/pages/[Page Name]`
 
-(code/functionality -> index.js; design -> [Page Name].module.css)
+   (code/functionality -> index.js; design -> [Page Name].module.css)
 
 
 ## Deployment
