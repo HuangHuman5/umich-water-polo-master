@@ -12,7 +12,7 @@ import styles from './fundraising.module.css';
 export default function Fundraising() {
     return (
         <div className={styles.fundraisingBody}>
-            <ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/huddle.jpg`} />
+            <ImageIntro src={`${process.env.PUBLIC_URL}/bannerPhotos/hooray1.jpg`} />
             <ErrorBoundary FallbackComponent={ErrorFallback} onError={logger}>
                 <FundraisingBody />
             </ErrorBoundary>
