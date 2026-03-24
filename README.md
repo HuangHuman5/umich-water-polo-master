@@ -1,4 +1,4 @@
-# README
+# README - (Last Edit 3/24/2026 - Alex Huang)
 In this document, you will learn about the structure of the website, how it is hosted, how to open the website on a local machine, how to deploy it to Apache, and how modify the sites content!
 
 Website Link : https://websites.umich.edu/~umpolo/
